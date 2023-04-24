@@ -1,0 +1,27 @@
+ipv4:
+    enable: false
+    gettype: url
+    url: ""
+    netinterface: ""
+    domains:
+        - ""
+ipv6:
+    enable: true
+    gettype: netInterface
+    url: ""
+    netinterface: br-lan
+    ipv6reg: ""
+    domains:
+        - ljop.top
+dns:
+    name: dnspod
+    id: "353464"
+    secret: 38c7ba5d7649238f593fa80fd909d968
+user:
+    username: root
+    password: lj0307
+webhook:
+    webhookurl: ""
+    webhookrequestbody: ""
+notallowwanaccess: false
+ttl: ""
