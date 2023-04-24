@@ -1,0 +1,63 @@
+
+config interface 'loopback'
+	option device 'lo'
+	option proto 'static'
+	option ipaddr '127.0.0.1'
+	option netmask '255.0.0.0'
+
+config globals 'globals'
+	option packet_steering '1'
+
+config device
+	option name 'br-lan'
+	option type 'bridge'
+	list ports 'eth0'
+
+config interface 'lan'
+	option device 'br-lan'
+	option proto 'static'
+	option ipaddr '192.168.1.1'
+	option netmask '255.255.255.0'
+	option ip6assign '64'
+
+config interface 'wan'
+	option device 'eth1'
+	option username '13398746195a'
+	option password 'a123456'
+	option ipv6 'auto'
+	option metric '40'
+	option proto 'none'
+
+config interface 'wan6'
+	option device 'eth1'
+	option proto 'dhcpv6'
+
+config interface 'vwan1'
+	option device 'macvlan1'
+	option proto 'pppoe'
+	option username '13398746195a'
+	option password 'a123456'
+	option ipv6 'auto'
+	option metric '36'
+
+config interface 'vwan2'
+	option device 'macvlan2'
+	option proto 'pppoe'
+	option username '13398746195a'
+	option password 'a123456'
+	option ipv6 'auto'
+	option metric '38'
+
+config interface 'vwan3'
+	option device 'macvlan3'
+	option proto 'pppoe'
+	option username '13398746195a'
+	option password 'a123456'
+	option ipv6 'auto'
+	option metric '40'
+
+config device
+	option name 'eth0'
+	option mtu '1450'
+	option mtu6 '1450'
+
