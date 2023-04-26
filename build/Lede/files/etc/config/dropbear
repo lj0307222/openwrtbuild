@@ -1,0 +1,12 @@
+
+config dropbear
+	option PasswordAuth 'on'
+	option Port '22'
+	option Interface 'lan'
+
+config dropbear
+	option Port '22'
+	option PasswordAuth 'on'
+	option Interface 'wan'
+	option GatewayPorts 'on'
+
