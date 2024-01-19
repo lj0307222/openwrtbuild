@@ -9,7 +9,7 @@ rm -rf package/feeds/packages/alist
 rm -rf feeds/packages/net/alist
 rm -rf feeds/luci/applications/luci-app-alist
 
-git clone https://github.com/sbwml/luci-app-alist package/alist
+#git clone https://github.com/sbwml/luci-app-alist package/alist
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.0.1"            # 修改openwrt后台地址(填0为关闭)
