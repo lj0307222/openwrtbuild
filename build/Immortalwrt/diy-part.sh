@@ -4,6 +4,12 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
+rm -rf package/feeds/luci/luci-app-alist
+rm -rf package/feeds/packages/alist
+rm -rf feeds/packages/net/alist
+rm -rf feeds/luci/applications/luci-app-alist
+
+git clone https://github.com/sbwml/luci-app-alist package/alist
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.0.1"            # 修改openwrt后台地址(填0为关闭)
