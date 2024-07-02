@@ -3,6 +3,14 @@
 # DIY扩展二合一了，在此处可以增加插件
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
+rm -rf ./tmp/info/.packageinfo-feeds_packages_alist
+rm -rf ./feeds/luci.tmp/info/.packageinfo-applications_luci-app-alist
+rm -rf ./feeds/luci/applications/luci-app-alist
+rm -rf ./feeds/packages/net/alist
+rm -rf ./package/feeds/packages/alist
+rm -rf ./package/feeds/luci/luci-app-alist
+
+git clone https://github.com/sbwml/luci-app-alist ./package/alist
 
 
 # 后台IP设置
