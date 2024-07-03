@@ -1,5 +1,0 @@
-config ddns-go 'config'
-	option listen '[::]:9876'
-	option ttl '300'
-	option enabled '1'
-	option insecure '1'
