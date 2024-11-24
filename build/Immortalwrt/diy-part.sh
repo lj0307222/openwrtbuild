@@ -12,7 +12,7 @@ rm -rf ./feeds/packages/net/alist
 rm -rf ./package/feeds/packages/alist
 rm -rf ./package/feeds/luci/luci-app-alist
 
-git clone https://github.com/sbwml/luci-app-alist ./package/alist
+git clone https://github.com/immortalwrt/homeproxy ./package/homeproxy
 
 
 # 后台IP设置
