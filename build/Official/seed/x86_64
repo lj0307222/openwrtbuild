@@ -1,8 +1,122 @@
 CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
+CONFIG_PACKAGE_6in4=y
+CONFIG_PACKAGE_autocore-x86=y
+CONFIG_PACKAGE_bc=y
+# CONFIG_PACKAGE_bnx2-firmware is not set
+CONFIG_PACKAGE_ethtool=y
+# CONFIG_PACKAGE_i915-firmware-dmc is not set
+CONFIG_PACKAGE_ip-tiny=y
+CONFIG_PACKAGE_ip6tables-nft=y
+CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+CONFIG_PACKAGE_iptables-mod-ipopt=y
+CONFIG_PACKAGE_iptables-nft=y
+CONFIG_PACKAGE_ipv6helper=y
+# CONFIG_PACKAGE_kmod-amazon-ena is not set
+# CONFIG_PACKAGE_kmod-amd-xgbe is not set
+# CONFIG_PACKAGE_kmod-bnx2 is not set
+# CONFIG_PACKAGE_kmod-button-hotplug is not set
+# CONFIG_PACKAGE_kmod-drm-buddy is not set
+# CONFIG_PACKAGE_kmod-drm-display-helper is not set
+# CONFIG_PACKAGE_kmod-drm-i915 is not set
+# CONFIG_PACKAGE_kmod-drm-kms-helper is not set
+# CONFIG_PACKAGE_kmod-drm-ttm is not set
+# CONFIG_PACKAGE_kmod-dwmac-intel is not set
+# CONFIG_PACKAGE_kmod-e1000 is not set
+# CONFIG_PACKAGE_kmod-e1000e is not set
+# CONFIG_PACKAGE_kmod-fb is not set
+# CONFIG_PACKAGE_kmod-fb-cfb-copyarea is not set
+# CONFIG_PACKAGE_kmod-fb-cfb-fillrect is not set
+# CONFIG_PACKAGE_kmod-fb-cfb-imgblt is not set
+# CONFIG_PACKAGE_kmod-fb-sys-fops is not set
+# CONFIG_PACKAGE_kmod-fb-sys-ram is not set
+# CONFIG_PACKAGE_kmod-forcedeth is not set
+# CONFIG_PACKAGE_kmod-hwmon-core is not set
+# CONFIG_PACKAGE_kmod-i2c-algo-bit is not set
+# CONFIG_PACKAGE_kmod-i2c-core is not set
+# CONFIG_PACKAGE_kmod-igb is not set
+# CONFIG_PACKAGE_kmod-input-core is not set
+CONFIG_PACKAGE_kmod-ip6tables=y
+CONFIG_PACKAGE_kmod-ipt-conntrack=y
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-core=y
+CONFIG_PACKAGE_kmod-ipt-ipopt=y
+CONFIG_PACKAGE_kmod-ipt-ipset=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+# CONFIG_PACKAGE_kmod-ixgbe is not set
+# CONFIG_PACKAGE_kmod-libphy is not set
+CONFIG_PACKAGE_kmod-macvlan=y
+# CONFIG_PACKAGE_kmod-mii is not set
+CONFIG_PACKAGE_kmod-nf-conncount=y
+CONFIG_PACKAGE_kmod-nf-ipt=y
+CONFIG_PACKAGE_kmod-nf-ipt6=y
+CONFIG_PACKAGE_kmod-nft-compat=y
+# CONFIG_PACKAGE_kmod-pcs-xpcs is not set
+# CONFIG_PACKAGE_kmod-phy-realtek is not set
+# CONFIG_PACKAGE_kmod-phylink is not set
+# CONFIG_PACKAGE_kmod-r8169 is not set
+CONFIG_PACKAGE_kmod-sit=y
+# CONFIG_PACKAGE_kmod-stmmac-core is not set
+CONFIG_PACKAGE_kmod-tcp-bbr=y
+# CONFIG_PACKAGE_kmod-tg3 is not set
+CONFIG_PACKAGE_libcap-ng=y
+CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libiptext=y
+CONFIG_PACKAGE_libiptext-nft=y
+CONFIG_PACKAGE_libiptext6=y
+CONFIG_PACKAGE_libkmod=y
+CONFIG_PACKAGE_libncurses=y
 CONFIG_PACKAGE_libnetsnmp=y
 CONFIG_PACKAGE_libpci=y
+CONFIG_PACKAGE_libreadline=y
+CONFIG_PACKAGE_libsensors=y
+CONFIG_PACKAGE_libsysfs=y
+CONFIG_PACKAGE_libxtables=y
+CONFIG_PACKAGE_lm-sensors=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-lucky=y
+CONFIG_PACKAGE_luci-app-mosdns=y
+CONFIG_PACKAGE_luci-app-mwan3=y
+CONFIG_PACKAGE_luci-app-nlbwmon=y
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_DNS2SOCKS is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
+CONFIG_PACKAGE_luci-app-syncdial=y
+CONFIG_PACKAGE_luci-app-turboacc=y
+CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_BBR_CCA=y
+CONFIG_PACKAGE_luci-app-upnp=y
+# CONFIG_PACKAGE_luci-app-webd_INCLUDE_WEBD_BINARY is not set
+CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-lucky-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-mosdns-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
+CONFIG_PACKAGE_luci-lib-chartjs=y
+CONFIG_PACKAGE_luci-theme-design=y
+CONFIG_PACKAGE_luci-theme-openwrt=y
+CONFIG_PACKAGE_lucky=y
+CONFIG_PACKAGE_miniupnpd-nftables=y
+CONFIG_PACKAGE_mosdns=y
+CONFIG_PACKAGE_mwan3=y
+CONFIG_PACKAGE_nlbwmon=y
 CONFIG_PACKAGE_openssh-sftp-server=y
+CONFIG_PACKAGE_pciids=y
+CONFIG_PACKAGE_pciutils=y
+# CONFIG_PACKAGE_r8169-firmware is not set
+CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_snmpd=y
+CONFIG_PACKAGE_sysfsutils=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_v2dat=y
+CONFIG_PACKAGE_v2ray-geoip=y
+CONFIG_PACKAGE_v2ray-geosite=y
+CONFIG_PACKAGE_xtables-nft=y
+# CONFIG_TARGET_ROOTFS_EXT4FS is not set
 CONFIG_TARGET_ROOTFS_PARTSIZE=950
